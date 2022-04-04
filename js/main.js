@@ -1,17 +1,17 @@
 let li = document.querySelectorAll('li');
 let contenttitle = document.querySelector('.content-title');
-// lilar
+
 let li1 = document.querySelector('.content__item-1');
 let li2 = document.querySelector('.content__item-2');
 let li3 = document.querySelector('.content__item-3');
-// spanlar
+
 let spn1 = document.querySelector('.spn1');
 let spn2 = document.querySelector('.spn2');
 let spn3 = document.querySelector('.spn3');
-// h4 elementlari
-let h41 = document.querySelector('.content_title-1');
-let h42 = document.querySelector('.content_title-2');
-let h43 = document.querySelector('.content_title-3');
+
+let title1 = document.querySelector('.content_title-1');
+let title2 = document.querySelector('.content_title-2');
+let title3 = document.querySelector('.content_title-3');
 let clickedTime = 1;
 
 //  buttons
