@@ -45,7 +45,7 @@ function count(clickedTime) {
 
     if (clickedTime == 1) {
         contenttitle.textContent = 'Choose Title Content';
-        h41.style.color = 'black';
+        title1.style.color = 'black';
         spn1.style.backgroundColor = 'purple';
         spn1.style.color = 'white';
 
@@ -55,12 +55,12 @@ function count(clickedTime) {
         goback.style.display = 'none';
         goahead.style.display = 'none';
 
-        h42.style.color = 'rgba(178, 45, 45, 0.186)';
+        title2.style.color = 'rgba(178, 45, 45, 0.186)';
         spn2.style.backgroundColor = 'rgba(178, 45, 45, 0.186)';
         spn2.style.color = 'black';
     } else if (clickedTime == 2) {
         contenttitle.textContent = 'Choose Description Content';
-        h42.style.color = 'black';
+        title2.style.color = 'black';
         spn2.style.backgroundColor = 'purple';
         spn2.style.color = 'white';
         //left buttons
@@ -70,12 +70,12 @@ function count(clickedTime) {
         goback.style.display = 'none';
         goahead.style.display = 'none';
         //   3 btn
-        h43.style.color = 'rgba(178, 45, 45, 0.186)';
+        title3.style.color = 'rgba(178, 45, 45, 0.186)';
         spn3.style.backgroundColor = 'rgba(178, 45, 45, 0.186)';
         spn3.style.color = 'black';
     } else if (clickedTime == 3) {
         contenttitle.textContent = 'Choose Data Content';
-        h43.style.color = 'black';
+        title3.style.color = 'black';
         spn3.style.backgroundColor = 'purple';
         spn3.style.color = 'white';
         //   left buttons
@@ -123,7 +123,7 @@ goahead.addEventListener('click', () => {
 });
 
 // default version
-h41.style.color = 'black';
+title1.style.color = 'black';
 spn1.style.backgroundColor = 'purple';
 spn1.style.color = 'white';
 back.style.display = 'none';
